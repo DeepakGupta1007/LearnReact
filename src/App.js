@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './Tutorial/Form';
+import ListRendering from './Tutorial/ListRendering';
+import UseStateObj from './Tutorial/UseStateObj'
+import UseStateArray from './Tutorial/UseStateArray'
+import TodoList from './TodoList';
+import AxiosTutorial from './AxiosTutorial';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+   <>
+
+   {/* Learning useReducer(reducer, initialState, init) */}
+   
+
+   {/* Learning Axios */}
+  {/* <AxiosTutorial></AxiosTutorial> */}
+
+
+
+
+
+   {/* <TodoList>
+     
+   </TodoList> */}
+  
+
+   {/* Learning React */}
+   {/* <UseStateArray></UseStateArray> */}
+   {/* <UseStateObj></UseStateObj> */}
+   {/* <Form></Form> */}
+   {/* <ListRendering>
+   </ListRendering> } */}
+   </>
   );
 }
 
