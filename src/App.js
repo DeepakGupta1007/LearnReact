@@ -4,7 +4,8 @@ import ListRendering from './Tutorial/ListRendering';
 import UseStateObj from './Tutorial/UseStateObj'
 import UseStateArray from './Tutorial/UseStateArray'
 import TodoList from './TodoList';
-import AxiosTutorial from './AxiosTutorial';
+import AxiosTutorial from './Tutorial/AxiosTutorial';
+import CounterUseReducer from './CounterUseReducer';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
    <>
 
    {/* Learning useReducer(reducer, initialState, init) */}
-   
+   <CounterUseReducer>
+    
+   </CounterUseReducer>
 
    {/* Learning Axios */}
   {/* <AxiosTutorial></AxiosTutorial> */}
