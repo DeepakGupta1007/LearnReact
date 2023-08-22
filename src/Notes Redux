@@ -1,0 +1,23 @@
+Redux-
+
+Core concepts of redux consists of -
+1.Store- Holds state of your application.
+2.Action- Describe the changes in the state of the application
+3.Reducer -Actually carries out the state transition depending on the action.
+
+Eample- Book Shop
+ (Store)                  (Reducer)              (Action)
+  Shop<====================>ShopKeeper<============>Customer
+
+
+
+  Rules of Redux-
+  1. The state of redux is stored in an object tree within a single store.
+  {
+    NumberofBooks:10
+  }
+
+  2.Only way to change the state is to emit an action, an object describing what happened.
+  {type:"BuyBook"}
+
+  3.To specify , how the state tree is transformed by actions, we write pure reducer.

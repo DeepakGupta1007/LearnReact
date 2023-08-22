@@ -5,17 +5,18 @@ import UseStateObj from './Tutorial/UseStateObj'
 import UseStateArray from './Tutorial/UseStateArray'
 import TodoList from './TodoList';
 import AxiosTutorial from './Tutorial/AxiosTutorial';
-import CounterUseReducer from './CounterUseReducer';
+import CounterUseReducer from './Tutorial/CounterUseReducer';
 
 function App() {
   return (
 
    <>
 
+
    {/* Learning useReducer(reducer, initialState, init) */}
-   <CounterUseReducer>
-    
-   </CounterUseReducer>
+   {/* <CounterUseReducer>
+
+   </CounterUseReducer> */}
 
    {/* Learning Axios */}
   {/* <AxiosTutorial></AxiosTutorial> */}
